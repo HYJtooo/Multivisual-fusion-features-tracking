@@ -12,7 +12,7 @@ Pytorch 1.10.0 + cu111
 Download dataset Shelf from: 
 
 ## Model
-Download model.pth from: https://pan.baidu.com/s/1nuWakVLY  
+Download model.pth from: [model](https://pan.baidu.com/s/1nuWalVLYrkMbiye-6kkzIQ) code: ef6g
 Save model.pth in log_Shelf/  
 
 ## Run
