@@ -26,8 +26,7 @@ Accuracy:
 Success rate:  
 ![Iou](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/IoU_all_svg.svg)  
 
-Qualitative results:  
-  
+
 ![gif](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/result1.gif)  
 
 ![gif2](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/result2.gif)
