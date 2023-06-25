@@ -88,6 +88,7 @@ def pairwise_distance(features_gal, features_query, gallery=None, metric=None):
     dist.addmm_(1, -2, x, y.t())
     return dist
 
+
 def pairwise_distance_f2f(fea_gal, fea_query, metric=None):
 
     x = fea_query
@@ -130,14 +131,12 @@ def pairwise_distance_0(features, query=None, gallery=None, metric=None):
     return dist
 
 
-
-
 def evaluate_all(distmat, query=None, gallery=None,
                  query_ids=None, gallery_ids=None,
                  query_cams=None, gallery_cams=None,
                  cmc_topk=(1, 5, 10), dataset=None, top1=True):
     if query is not None and gallery is not None:
-        query_ids = [pid for _, pid, _, _ in query]   #修改3.17
+        query_ids = [pid for _, pid, _, _ in query] 
         gallery_ids = [pid for _, pid, _, _ in gallery]
         query_cams = [cam for _, _, cam, _ in query]
         gallery_cams = [cam for _, _, cam, _ in gallery]
@@ -230,6 +229,7 @@ def evaluate_all(distmat, query=None, gallery=None,
             
     else:
       return mAP
+
 
 class CascadeEvaluator(object):
     def __init__(self, base_model, embed_model, embed_dist_fn=None):
