@@ -28,4 +28,6 @@ Success rate:
 
 Qualitative results:  
   
-![gif](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/result1.gif)
+![gif](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/result1.gif)  
+
+![gif2](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/result2.gif)
