@@ -9,7 +9,7 @@ cudnn 8.0.5
 Pytorch 1.10.0 + cu111
 
 ## Dataset
-Download dataset Shelf from: http. code: sh4e  
+Download dataset Shelf from: https://pan.baidu.com/s/1z9vOfW2klU2PK2qy0sajAg. code: sh4e  
 Save dataset in the root  
 
 ## Model
