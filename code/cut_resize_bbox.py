@@ -55,11 +55,9 @@ def cut_allbbox():
                 cut_img = imframe.crop((float(sin_bbox[0]), float(sin_bbox[1]), float(sin_bbox[2]), float(sin_bbox[3])))
                 resize_img = cut_img.resize((64,128), Image.ANTIALIAS).convert('RGB')
                 img_[-1].append(resize_img) 
-        
-    # print(img_gallery)
-    # print(img_query)
     return img_, img_gallery, img_query
-                  
+
+
 def cut_singlebbox(index, camlist):
     BasePath = 'Shelf/videos'  
     campath_ = os.listdir(BasePath)  
