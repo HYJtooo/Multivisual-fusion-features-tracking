@@ -39,7 +39,7 @@ for i in range(len(outbox)):
             else: 
                 c4box.append(j[0])
             bbox = j[0]
-            cv2.rectangle(pic_, (int(bbox[0]),int(bbox[1])), (int(bbox[2]),int(bbox[3])), bgr[j[1]], thickness=2)
+            cv2.rectangle(pic_, (int(bbox[0]),int(bbox[1])), (int(bbox[2]),int(bbox[3])), bgr[j[1]], thickness=4)
             cv2.putText(pic_, f"{j[1]}", org=((int((int(bbox[2])+int(bbox[0]))/2))-10, int(bbox[1])+20), 
                         fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1,color=(255,255,255), thickness=2)
         Draw.append(pic_)
