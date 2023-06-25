@@ -17,7 +17,7 @@ Download `model.pth` from: https://pan.baidu.com/s/1nuWalVLYrkMbiye-6kkzIQ. code
 Save `model.pth` in `log_Shelf/`  
 
 ## Run
-demo.py  
+run example `demo.py`  
 
 ## Result
 Accuracy:  
