@@ -17,6 +17,7 @@ import torch.backends.cudnn as cudnn
 # cudnn.benchmark = True
 
 
+
 def extract_embeddings(model, features, alpha, query=None, topk_gallery=None, rerank_topk=0, print_freq=500):
     model.eval()
     batch_time = AverageMeter()
