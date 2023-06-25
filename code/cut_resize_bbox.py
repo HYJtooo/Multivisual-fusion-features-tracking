@@ -13,7 +13,7 @@ def cut_allbbox():
     VPath = 'Shelf/videos/camera00'
     vpath_ = os.listdir(VPath)
     ALL = np.load("code/yolooutput.npz")  
-    ALL = ALL['arr_0']  #[[mainframe, max], bbox]
+    ALL = ALL['arr_0']  
     img_ = []
     img_gallery = []
     img_query = []
