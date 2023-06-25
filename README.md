@@ -9,12 +9,12 @@ cudnn 8.0.5
 Pytorch 1.10.0 + cu111
 
 ## Dataset
-Download dataset Shelf from: https://pan.baidu.com/s/1z9vOfW2klU2PK2qy0sajAg. code: sh4e  
+Download dataset `Shelf` from: https://pan.baidu.com/s/1z9vOfW2klU2PK2qy0sajAg. code: sh4e  
 Save dataset in the root  
 
 ## Model
-Download model.pth from: https://pan.baidu.com/s/1nuWalVLYrkMbiye-6kkzIQ. code: ef6g  
-Save model.pth in log_Shelf/  
+Download `model.pth` from: https://pan.baidu.com/s/1nuWalVLYrkMbiye-6kkzIQ. code: ef6g  
+Save `model.pth` in `log_Shelf/`  
 
 ## Run
 demo.py  
