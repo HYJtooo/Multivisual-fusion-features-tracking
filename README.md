@@ -15,9 +15,11 @@ Save dataset in the root
 ## Model
 Download `model.pth` from: https://pan.baidu.com/s/1nuWalVLYrkMbiye-6kkzIQ. code: ef6g  
 Save `model.pth` in `log_Shelf/`  
+Download `basicModel_neutral_lbs_10_207_0_v1.0.0.pkl` from: https://pan.baidu.com/s/1nuWalVLYrkMbiye-6kkzIQ. code: ef6g  
+Save `basicModel_neutral_lbs_10_207_0_v1.0.0.pkl` in `log_Shelf/`  
 
 ## Run
-run example `demo.py`  
+run example `demo_.py`  
 
 ## Result
 Accuracy:  
