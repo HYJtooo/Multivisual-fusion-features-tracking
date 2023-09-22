@@ -114,6 +114,7 @@ if __name__ =='__main__':
         #         po1 = opsinf[1][jo[1]]
         #         ax.plot([po0[0],po1[0]],[po0[1],po1[1]],[po0[2],po1[2]],c=bgr_)
         # ax.auto_scale_xyz([-2,1], [0.25,3.25], [-1,1])
+        # plt.savefig()
         # plt.draw()
         # plt.pause(0.1)
         # ax.cla()
