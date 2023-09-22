@@ -71,7 +71,7 @@ if __name__ =='__main__':
     vpath_ = os.listdir(VPath)
     lenth = len(vpath_) 
     
-    modelpath = 'data/basicModel_neutral_lbs_10_207_0_v1.0.0.pkl'
+    modelpath = 'log_Shelf/basicModel_neutral_lbs_10_207_0_v1.0.0.pkl'
     with open(modelpath, 'rb') as file:
         model = pkl.load(file, encoding='iso-8859-1')
     J_re = model['J_regressor_prior'].todense()
