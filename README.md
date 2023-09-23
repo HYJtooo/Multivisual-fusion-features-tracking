@@ -9,11 +9,11 @@ cudnn 8.0.5
 Pytorch 1.10.0 + cu111
 
 ## Dataset
-Download dataset `Shelf` from: https://pan.baidu.com/s/1z9vOfW2klU2PK2qy0sajAg. code: sh4e  
+Download dataset `Shelf` from: https://pan.baidu.com/s/1VMS_e_kro0s5dtxY_yQd5g. code: ty5r.    
 Save dataset in the root  
 
 ## Model
-Download `model.pth` from: https://pan.baidu.com/s/1nuWalVLYrkMbiye-6kkzIQ. code: ef6g  
+Download `model.pth` from: https://pan.baidu.com/s/1nuWalVLYrkMbiye-6kkzIQ. code: ef6g.  
 Save `model.pth` in `log_Shelf/`  
     
 Download `basicModel_neutral_lbs_10_207_0_v1.0.0.pkl` from: https://pan.baidu.com/s/1MraSJmLwRMVJcKx0GAvDTA. code: sh4e.   
