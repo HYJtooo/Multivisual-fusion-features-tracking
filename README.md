@@ -22,7 +22,7 @@ Save `basicModel_neutral_lbs_10_207_0_v1.0.0.pkl` in `log_Shelf/`
 run example `demo_.py`  
 
 ## Qualitative Result
-part1:
+part1:   
 ![gif1](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/HYJtooo-patch-1/part1-gif.gif)  
 
 part2:  
