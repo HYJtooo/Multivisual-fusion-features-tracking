@@ -21,9 +21,9 @@ Save `basicModel_neutral_lbs_10_207_0_v1.0.0.pkl` in `log_Shelf/`
 ## Run
 run example `demo_.py`  
 
-## Result
-Accuracy:  
-![cle](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/CLE_all_svg.svg)  
+## Qualitative Result
+
+![gif1](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/CLE_all_svg.svg)  
 
 Success rate:  
 ![Iou](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/IoU_all_svg.svg)  
