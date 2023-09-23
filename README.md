@@ -26,11 +26,11 @@ run example `demo_.py`
 
 ### Part1:     
 Our work can effectively identify pedestrians when newly added and partial occlusion occur.   
-![gif1](https://github.com/HYJtooo/Target/blob/main/part1-gif.gif)  
+![gif1](https://github.com/HYJtooo/Target/blob/main/part1_.gif)  
 
 ### Part2:  
 Our work has satisfactory tracking capabilities for pedestrians who reappear after completely disappearing from views.   
-![gif2](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/HYJtooo-patch-1/part2-gif.gif)  
+![gif2](https://github.com/HYJtooo/Target/blob/main/part1-gif.gif)  
 
 ## Quantitative Results
 
