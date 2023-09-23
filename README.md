@@ -32,8 +32,8 @@ part2:
 
 ### The Number of Failed Tracking
 To demonstrate the algorithm's ability to control the overall tracking error.   
-![pic1](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/result1.gif)  
+![pic1](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/HYJtooo-patch-1/failedtracking.svg)  
 
 ### The Success Rate of 3D Pose Points
 To reflect the success rate of the pose points tracking within each pedestrian.   
-![gif2](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/result2.gif)
+![pic2](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/HYJtooo-patch-1/pointssuccess.svg)
