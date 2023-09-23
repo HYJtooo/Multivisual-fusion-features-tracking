@@ -1,5 +1,5 @@
 # Multivisual-fusion-features-tracking
-Under multi-vision, feature extraction and correlation are carried out based on the similarity of pedestrian features, and multi-target pedestrian tracking in dense pedestrian scene is completed through GMM-based feature pool update, pedestrian addition and recurrence judgment and other supplementary verification operations.
+In multiple views, 3D pose point tracking is implemented by a tracking module and a pose detection module. Based on fusion features designed an extraction model, dynamic threshold strategy, GMM feature pool update model and verification model. After 2D regression of the pose points through the SMPL basic model, the real camera parameters are projected to complete the accurate and complete 3D pose point tracking of pedestrians.
 
 ## Environment
 Ubuntu 18.04  
@@ -21,14 +21,19 @@ Save `basicModel_neutral_lbs_10_207_0_v1.0.0.pkl` in `log_Shelf/`
 ## Run
 run example `demo_.py`  
 
-## Qualitative Result
+## Qualitative Results
 part1:   
 ![gif1](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/HYJtooo-patch-1/part1-gif.gif)  
 
 part2:  
 ![gif2](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/HYJtooo-patch-1/part2-gif.gif)  
 
+## Quantitative Results
 
-![gif](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/result1.gif)  
+### The Number of Failed Tracking
+To demonstrate the algorithm's ability to control the overall tracking error.   
+![pic1](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/result1.gif)  
 
+### The Success Rate of 3D Pose Points
+To reflect the success rate of the pose points tracking within each pedestrian.   
 ![gif2](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/result2.gif)
