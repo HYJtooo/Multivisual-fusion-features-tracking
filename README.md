@@ -23,7 +23,7 @@ run example `demo_.py`
 
 ## Qualitative Result
 
-![gif1](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/CLE_all_svg.svg)  
+![gif1](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/HYJtooo-patch-1/part1-gif.gif)  
 
 Success rate:  
 ![Iou](https://github.com/HYJtooo/Multivisual-fusion-features-tracking/blob/main/IoU_all_svg.svg)  
