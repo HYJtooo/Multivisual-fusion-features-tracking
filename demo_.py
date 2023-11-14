@@ -165,7 +165,7 @@ if __name__ =='__main__':
                 if len(cpoints) < rid+1: 
                     for ins in range(rid+1-len(cpoints)):
                         cpoints.append([])
-                cpoints[rid].append([[],c])# ps-[[24[x,y]], c]
+                cpoints[rid].append([[],c])
                 app_[rid] = 1  #state
                 for jo in pose_xy:  
                     x = (jo[0]+1)*scale*100 + center[0]-scale*100
