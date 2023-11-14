@@ -151,14 +151,13 @@ if __name__ =='__main__':
                 camera_translation = torch.stack([pred_camera[:,1], pred_camera[:,2], 2*constants.FOCAL_LENGTH/(constants.IMG_RES * pred_camera[:,0] +1e-9)],dim=-1)
                 camera_translation = camera_translation[0].cpu().numpy()
                 pred_vertices = pred_vertices[0].cpu().numpy()
-                pose_points = np.dot(J_re_arr, np.array(pred_vertices))  #24x3
+                pose_points = np.dot(J_re_arr, np.array(pred_vertices))  
                 img = img.permute(1,2,0).cpu().numpy()
                 img_shape = renderer(pred_vertices, camera_translation, np.zeros_like(img))
                 camera_translation[0] *= -1.  
                 camera_pose = np.eye(4)
                 camera_pose[:3, 3] = camera_translation
                 pose_xyz1 = np.ones((1,24,4))
-                pose_xyz1[...,:3] = pose_points  #pose_3D
                 camera_matrix = camera_pose[:3,:]
                 pose_xy1 = (camera_matrix @ pose_xyz1[..., None])[...,0]
                 pose_xy = pose_xy1[..., :-1][0]
@@ -173,7 +172,7 @@ if __name__ =='__main__':
                     y = (jo[1]+1)*scale*100 + center[1]-scale*100
                     x_ = x.tolist()
                     y_ = y.tolist()
-                    indpoints[c][p][0].append([x_,y_])    #cam-ps- [[24[x,y]], rid]
+                    indpoints[c][p][0].append([x_,y_])    
                     bgr_ = (bgr[rid][2]/255, bgr[rid][1]/255, bgr[rid][0]/255)
                     cv2.circle(pic, (int(x),int(y)), 12, bgr[rid], -1)
                     cpoints[rid][-1][0].append([x_,y_])
