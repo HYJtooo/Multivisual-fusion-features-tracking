@@ -26,18 +26,18 @@ run example `demo_.py`
 
 ### Part1:     
 Our work can effectively identify pedestrians when newly added and partial occlusion occur.   
-![gif1](https://github.com/HYJtooo/Target/blob/main/part２＿ｇｉｔ.gif)  
+![gif1](https://github.com/HYJtooo/Target/blob/main/part2_git.gif)  
 
 ### Part2:  
 Our work has satisfactory tracking capabilities for pedestrians who reappear after completely disappearing from views.   
-![gif2](https://github.com/HYJtooo/Target/blob/main/part1-gif.gif)  
+![gif2](https://github.com/HYJtooo/Target/blob/main/part1_git.gif)  
 
 ## Quantitative Results
 
 ### The Number of Failed Tracking
 To demonstrate the algorithm's ability to control the overall tracking error.   
-![pic1](https://github.com/HYJtooo/Target/blob/main/failedtracking.svg)  
+![pic1](https://github.com/HYJtooo/Target/blob/main/GIT1.svg)  
 
 ### The Success Rate of 3D Pose Points
 To reflect the success rate of the pose points tracking within each pedestrian.   
-![pic2](https://github.com/HYJtooo/Target/blob/main/pointssuccess.svg)
+![pic2](https://github.com/HYJtooo/Target/blob/main/GIT2.svg)
