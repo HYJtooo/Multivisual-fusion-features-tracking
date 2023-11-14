@@ -26,7 +26,7 @@ run example `demo_.py`
 
 ### Part1:     
 Our work can effectively identify pedestrians when newly added and partial occlusion occur.   
-![gif1](https://github.com/HYJtooo/Target/blob/main/part1_.gif)  
+![gif1](https://github.com/HYJtooo/Target/blob/main/part２＿ｇｉｔ.gif)  
 
 ### Part2:  
 Our work has satisfactory tracking capabilities for pedestrians who reappear after completely disappearing from views.   
